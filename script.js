@@ -72,6 +72,7 @@ function moveSnake() {
     if (head.x > canvas.width || head.y > canvas.height || head.x < 0 || head.y < 0) {
         console.log("Creo que perdiste");
         food = { x: -100, y: -100 };
+        endGame();
         return false;
     }
     snake.unshift(head);
@@ -107,7 +108,7 @@ function startGame() {
 }
 
 function endGame() {
-
+    window.location.href = './pages/endGame.html'; // Redirige a la página de fin de juego
 }
 
 document.addEventListener("keydown", function (ev) {
