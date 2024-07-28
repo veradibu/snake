@@ -108,7 +108,7 @@ function startGame() {
 }
 
 function endGame() {
-    window.location.href = './pages/endGame.html'; // Redirige a la página de fin de juego
+    window.location.href = './pages/endgame.html'; // Redirige a la página de fin de juego
 }
 
 document.addEventListener("keydown", function (ev) {
