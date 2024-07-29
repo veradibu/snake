@@ -32,6 +32,20 @@
   display: none;
 }
 
+.start-again {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.start-again-button {
+  padding: 0.5vw;
+  border: none;
+  background-color: black;
+  color: greenyellow;
+}
+
 @media (max-width: 1500px) {
   .endgame1,
   .endgame2,
